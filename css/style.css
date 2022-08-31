@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #151320;
+  }
+  
+  .Login {
+    font-size: 1rem;
+      color: blue;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .main {
+    text-align: center;
+    color: #ffffffd5;
+    width: 350px;
+    height: 380px;
+    position: absolute;bottom: 450px;
+    padding-top: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3),
+                inset 3px 3px 3px rgba(0, 0, 0, .2);
+                animation-name: aparecer;
+                animation-duration: 3s; 
+                animation-delay: 0;
+  }
+
+  @keyframes aparecer {
+    0% {
+        top:-1000px;
+      }
+      50% {
+        top:10px;
+      }
+      100%{
+        top:145px;
+      }
+    }
+  
+  .main h1 {
+    color: #161616;
+    font-size: 34px;
+    padding-bottom: 20px;
+  }
+  
+  form .form-control {
+    width: 220px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  form .form-control input {
+    width: 165px;
+    height: 40px;
+    padding-left: 12px;
+    background: transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  
+  form .form-control i {
+    color: #262626;
+    font-size: 18px;
+  }
+  
+  form .login {
+    cursor: pointer;
+    width: 220px;
+    height: 38px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: red;
+    transition: .4s;
+  }
+  
+  form .login:hover {
+    background: #dd2544;
+  }
+  
+  form .register{
+    cursor: pointer;
+    width: 220px;
+    height: 38px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: red;
+    transition: .4s;
+  }
+  
+  form .register:hover {
+    background: #dd2544;
+  }
+  
